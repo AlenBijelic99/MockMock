@@ -7,4 +7,4 @@ mvn clean install --file ../pom.xml
 cp ../target/MockMock-1.4.0.one-jar.jar .
 
 # Build the Docker image locally
-docker build --tag alenbijelic99/mockmocksmtpserver .
+docker build --tag mockmocksmtpserver .
